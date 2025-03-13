@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>le chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .info {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Mijn Kat</h1>
+    </div>
+</header>
+
+<div class="container content">
+    <img src="https://mistralaichatupprodswe.blob.core.windows.net/chat-images/assistant/31/8c/11/318c1148-6700-46e3-bd46-e18f2747893c/7067afb7-2290-4dc8-ba18-b6d943964df9/84581fd3-5e8e-47ab-9c46-26be15d65748" alt="Le Chat">
+    <div class="info">
+        <h2>Informatie</h2>
+        <ul>
+            <li><strong>Naam:</strong> Le Chat</li>
+            <li><strong>Ras:</strong> Gemengd</li>
+            <li><strong>Leeftijd:</strong> 2 jaar</li>
+            <li><strong>Kleur:</strong> Grijs met witte vlekken</li>
+            <li><strong>Kenmerken:</strong> Speels, nieuwsgierig en liefdevol</li>
+            <li><strong>Lievelingsactiviteiten:</strong> Spelen met een bal, buiten zitten en slapen op zachte dekens</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
